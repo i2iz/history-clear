@@ -12,11 +12,6 @@
             body {
                 font-family: "Nanum Gothic", sans-serif;
                 background-color: #f7f7f7;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100vh;
-                margin: 0;
             }
 
             button {
@@ -24,11 +19,10 @@
                 color: white;
                 font-size: 1.1rem;
                 padding: 12px 24px;
-                margin: 12px 24px;
                 border: none;
                 border-radius: 8px;
                 cursor: pointer;
-                width: 220px;
+                width: 200px;
                 transition: background-color 0.3s ease, transform 0.2s ease;
                 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
             }
@@ -40,9 +34,8 @@
     </head>
 
     <body>
-        <div class="container">
-            <button id="btn">클릭 시 기록 삭제</button>
-        </div>
+        <button id="btn">삭제하기</button>
+        <p id="des">버튼 클릭시 삭제됩니다</p>
         <script src="popup.js"></script>
     </body>
 </html>

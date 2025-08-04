@@ -4,7 +4,7 @@ document.getElementById("btn").addEventListener("click", (e) => {
         e.target.disabled = true;
 
         setTimeout(() => {
-            e.target.textContent = "클릭 시 기록 삭제";
+            e.target.textContent = "삭제하기";
             e.target.disabled = false;
         }, 3000);
     });
